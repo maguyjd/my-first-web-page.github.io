@@ -2,12 +2,14 @@ body {font-family: calibri;
 	text-align: center;}
 
 h1 {color: black; 
-	font-size: 34px; 
+	font-size: 100px; 
 	font-family:'Pacifico', cursive; }
 
-h2, h3, h4 {color: green; 
-	font-size: 24px; 
-	margin: 30px;}
+h2, h3, h4 {color: #031177; 
+	font-size: 30px; 
+	margin: 20px;}
+
+h3 {font-family: impact}
 
 
 ul, ol, li	{text-align: left;}
@@ -15,16 +17,14 @@ ul, ol, li	{text-align: left;}
 
 /*autre*/
 
-.principal {width: 300px; 
-	height: 300px; 
-	object-fit: cover;}
+.principal {object-fit: cover;}
 
 .secondaire {width: 300px; 
 	height: 300px; 
 	object-fit: cover;}
 
-.frame {background: #bef574;
-	border: 3px solid gold;
+.frame {background: #ffeff5;
+	border: 3px solid #FFFF00;
 	border-radius: 10px;
 	padding: 20px;
 	box-shadow: 5px 5px 10px grey; }
@@ -39,34 +39,34 @@ ul, ol, li	{text-align: left;}
 
 .btn-pink {display: inline-block;
 	margin: 15px;
-	background:#FF69B4;
+	background:black;
 	border-radius: 10px;
-	padding: 15px;
+	padding: 10px;
 	color: white;
 	font-weight: bold;
-	border: 5px solid white
+	border: 3px solid white
 }
 
-.btn-pink: hover {background: pink;}
+.btn-pink: hover {background: black;}
 
 /*autre*/
 
-.line-transparent {background: gold;
+.line-transparent {background: white;
 	display: flex; /*permet de mettre les enfants a coté des autres*/
 	justify-content: space-around;
 	align-items: center;} 
 
 .line-dark {height:5px;
 	width: 420px;
-	background: pink;}
+	background: #FFDAEC;}
 
 .line-medium {height:5px;
 	width: 420px;
-	background: green;}
+	background: #FF53BF;}
 
 .line-light {height:5px;
 	width: 420px;
-	background: yellow;}
+	background: #FFFF00;}
 
 /*autre*/
 
@@ -74,8 +74,7 @@ ul, ol, li	{text-align: left;}
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #E2F3DC;
-}
+  background: black;}
 
 .links {
   display: flex;
@@ -84,8 +83,7 @@ ul, ol, li	{text-align: left;}
 
 .link {
   margin: 10px 30px;
-  color: #9F3442;
-}
+  color: #FFFF00;}
 
 .link:hover {
   color: #458D2E;
@@ -97,7 +95,10 @@ ul, ol, li	{text-align: left;}
 
 /*autre*/
 
-.two-sections {display:flex;}
+.two-sections {display:flex;
+	justify-content: space-around;
+	align-items: center;}
+
 
 .three-section {display:flex;
 	justify-content: space-around;}
@@ -107,19 +108,19 @@ ul, ol, li	{text-align: left;}
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 60px 0;
 }
 
 .banner h1 {
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 70px;
   font-weight: bold;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
