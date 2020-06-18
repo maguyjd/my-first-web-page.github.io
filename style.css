@@ -5,11 +5,12 @@ h1 {color: black;
 	font-size: 100px; 
 	font-family:'Pacifico', cursive; }
 
-h2, h3, h4 {color: #031177; 
+h2, h3, h4 {font-family: impact;
+	color: black; 
 	font-size: 30px; 
 	margin: 20px;}
 
-h3 {font-family: impact}
+h3 {color: #031177}
 
 
 ul, ol, li	{text-align: left;}
@@ -37,7 +38,7 @@ ul, ol, li	{text-align: left;}
 
 /*autre*/
 
-.btn-pink {display: inline-block;
+.my-btn {display: inline-block;
 	margin: 15px;
 	background:black;
 	border-radius: 10px;
@@ -47,7 +48,7 @@ ul, ol, li	{text-align: left;}
 	border: 3px solid white
 }
 
-.btn-pink: hover {background: black;}
+.my-btn: hover {background: black;}
 
 /*autre*/
 
